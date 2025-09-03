@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}"
   ],
+  safelist: [
+    { pattern: /.*/ }, // ✅ Mantieni tutte le classi, nessuna viene purgata
+  ],
   theme: {
     extend: {
       colors: {
