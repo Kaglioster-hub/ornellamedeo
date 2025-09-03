@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         brandBlue: "#2E8BC0",   // Azzurro digitale
         brandGold: "#FFD700",   // Giallo oro
-        brandGreen: "#9FE2BF",  // Verdino pastello
+        brandGreen: "#9FE2BF",  // Verde pastello
         brandGray: "#444444",   // Grigio elegante
       },
       fontFamily: {
