@@ -4,7 +4,7 @@
 
 /* === Reset tipografico e base === */
 html, body {
-  @apply bg-white text-brandGray font-sans antialiased;
+  @apply bg-white text-gray-700 font-sans antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
