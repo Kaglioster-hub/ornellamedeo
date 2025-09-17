@@ -8,7 +8,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-title text-brandBlue tracking-tight;
+  @apply font-title text-blue-700 tracking-tight;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  @apply text-brandBlue hover:text-brandGold transition-colors duration-300;
+  @apply text-blue-700 hover:text-brandGold transition-colors duration-300;
 }
 
 /* === Layout === */
@@ -32,7 +32,7 @@ a {
   @apply bg-brandBlue text-white hover:bg-brandGold;
 }
 .btn-outline {
-  @apply border border-brandBlue text-brandBlue hover:bg-brandBlue hover:text-white;
+  @apply border border-brandBlue text-blue-700 hover:bg-brandBlue hover:text-white;
 }
 
 /* === Cards === */
