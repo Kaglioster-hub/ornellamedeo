@@ -2,19 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white text-brandGray font-sans;
+/* === Reset tipografico e base === */
+html, body {
+  @apply bg-white text-brandGray font-sans antialiased;
 }
 
-h1, h2, h3, h4 {
-  @apply font-title text-brandBlue;
+h1, h2, h3, h4, h5, h6 {
+  @apply font-title text-brandBlue tracking-tight;
+}
+
+p {
+  @apply leading-relaxed text-base;
 }
 
 a {
   @apply text-brandBlue hover:text-brandGold transition-colors duration-300;
 }
 
-button, .btn {
-  @apply px-6 py-3 rounded-lg font-semibold shadow-md transition
-         bg-brandBlue text-white hover:bg-brandGreen hover:text-brandGray;
+/* === Layout === */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* === Pulsanti === */
+.btn {
+  @apply inline-block px-6 py-2 rounded-xl font-semibold shadow-md transition-all duration-300;
+}
+.btn-primary {
+  @apply bg-brandBlue text-white hover:bg-brandGold;
+}
+.btn-outline {
+  @apply border border-brandBlue text-brandBlue hover:bg-brandBlue hover:text-white;
+}
+
+/* === Cards === */
+.card {
+  @apply bg-white rounded-2xl shadow-lg p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl;
+}
+
+/* === Dark Mode === */
+.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  @apply text-brandGold;
+}
+.dark a {
+  @apply text-brandGreen hover:text-brandGold;
+}
+.dark .card {
+  @apply bg-gray-800 text-gray-100;
 }
