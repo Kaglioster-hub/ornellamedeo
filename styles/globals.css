@@ -8,7 +8,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-title text-blue-700 tracking-tight;
+  @apply font-sans text-blue-700 tracking-tight;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  @apply text-blue-700 hover:text-brandGold transition-colors duration-300;
+  @apply text-blue-700 hover:text-amber-500 transition-colors duration-300;
 }
 
 /* === Layout === */
@@ -29,10 +29,10 @@ a {
   @apply inline-block px-6 py-2 rounded-xl font-semibold shadow-md transition-all duration-300;
 }
 .btn-primary {
-  @apply bg-brandBlue text-white hover:bg-brandGold;
+  @apply bg-blue-700 text-white hover:bg-amber-500;
 }
 .btn-outline {
-  @apply border border-brandBlue text-blue-700 hover:bg-brandBlue hover:text-white;
+  @apply border border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white;
 }
 
 /* === Cards === */
@@ -45,10 +45,10 @@ a {
   @apply bg-gray-900 text-gray-100;
 }
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  @apply text-brandGold;
+  @apply text-amber-500;
 }
 .dark a {
-  @apply text-brandGreen hover:text-brandGold;
+  @apply text-brandGreen hover:text-amber-500;
 }
 .dark .card {
   @apply bg-gray-800 text-gray-100;
