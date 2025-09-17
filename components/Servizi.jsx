@@ -17,7 +17,8 @@ const servizi = [
     icon: "⚖️",
     titolo: "Mediazione e arbitrato",
     telefono: "0637518763",
-    email: "studio.amedeo@gmail.com",
+    email: "segreteria@adreuropa.it",
+    email2: "o.amedeo@associationline.it",
   },
   {
     icon: "🎓",
